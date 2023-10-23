@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //Informe um número
+        let numero = parseInt(prompt("Informe um número: "));
+
+        //Contabilizar pares e ímpares
+        let par = 0;
+        let impar = 0;
+
+        //Laço
+        for (let i = 0; i <= numero; i++) {
+            //Condicional
+            if (i % 2 == 0) {
+                par++;
+            } else {
+                impar++;
+            }
+        }
+
+        //Retonar contadores
+        document.write("Pares: " + par);
+        document.write("<br>Ímpares: " + impar);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
