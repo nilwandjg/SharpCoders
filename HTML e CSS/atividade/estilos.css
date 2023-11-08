@@ -62,11 +62,11 @@ header a:hover {
     width: 700px;
 }
 
-.sobre h1{
+.sobre h1 {
     font-size: 32px;
 }
 
-.sobre p{
+.sobre p {
     margin-top: 10px;
     text-align: justify;
     line-height: 25px;
@@ -74,12 +74,12 @@ header a:hover {
 }
 
 /* RODAPÉ */
-footer{
+footer {
     background-color: black;
     padding: 20px;
 }
 
-footer p{
+footer p {
     text-align: center;
     color: white;
 }
