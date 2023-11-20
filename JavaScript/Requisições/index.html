@@ -41,10 +41,10 @@
         //     .then(cliente => console.log(cliente));
 
         // IMPLEMENTAR O FETH
-            fetch("http://localhost:3000/clientes/344",
+        fetch("http://localhost:3000/clientes/344",
             {
                 method: "DELETES",
-                headers: { "Content-Type":"application/json" }
+                headers: { "Content-Type": "application/json" }
             })
             .then(requisicao => requisicao.json())
             .catch(erro => console.log(`Erro apresentado: ${erro}`))
