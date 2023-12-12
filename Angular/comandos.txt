@@ -1,0 +1,32 @@
+1- Criar projeto: 
+ng new aula03
+
+2- Criar dois componentes:
+ng g c paginas/login
+ng g c paginas/admin
+
+3- Criar o autenticador de rotas (Auth Guard)
+ng g g seguranca/autenticar
+
+4- Baixar os arquivos Bootstrap:
+npm i bootstrap
+
+5- executarprojeto
+ng s
+
+
+__________________________________________________
+Aula 4
+
+CRIAR UM PROJETO:
+ng new aula4
+
+CRIAR UM COMPONENTE:
+ng g c componentes/postagem
+
+CRIAR UM SERVIÇO:
+ng g s servicos/postagem
+
+EXECUTAR PROJETO:
+ng s
+
