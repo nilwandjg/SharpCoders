@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "json-server": "^0.17.4",
     "typescript": "^5.3.2"
   }
 }

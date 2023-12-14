@@ -30,3 +30,25 @@ ng g s servicos/postagem
 EXECUTAR PROJETO:
 ng s
 
+__________________________________________________
+Aula 5 (backend)
+1º Criar uma estrutura json-server
+    a) npm i json-server
+    ou
+    b) npx i json-server
+
+2º Executar projeto  
+    a) npm json-server alunos.json
+    ou
+    b) npx json-server alunos.json
+
+
+Aula 5 (front)
+1º Criar componente de aluno
+    ng g c componentes/aluno
+
+2º Criar serviço de aluno
+    ng g s servicos/aluno
+
+3º Executar projeto
+ng s ou ng serve
