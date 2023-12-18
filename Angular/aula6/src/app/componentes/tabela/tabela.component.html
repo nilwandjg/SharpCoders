@@ -1,0 +1,21 @@
+<!-- <p>{{ vetor | json }}</p> -->
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Média</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let v of vetor">
+            <th>{{ v.nome }}</th>
+            <th>{{ v.nota1 }}</th>
+            <th>{{ v.nota2 }}</th>
+            <th>{{ v | media }}</th>
+        </tr>
+    </tbody>
+</table>

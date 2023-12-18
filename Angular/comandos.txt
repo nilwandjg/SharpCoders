@@ -13,8 +13,6 @@ npm i bootstrap
 
 5- executarprojeto
 ng s
-
-
 __________________________________________________
 Aula 4
 
@@ -29,9 +27,9 @@ ng g s servicos/postagem
 
 EXECUTAR PROJETO:
 ng s
-
 __________________________________________________
 Aula 5 (backend)
+
 1º Criar uma estrutura json-server
     a) npm i json-server
     ou
@@ -52,3 +50,26 @@ Aula 5 (front)
 
 3º Executar projeto
 ng s ou ng serve
+
+__________________________________________________
+Aula 6
+
+1º Criar um novo projeto:
+    ng new aula6
+
+2º Instalar o bootstrap:
+    npm i bootstrap
+
+3º Criar componentes:
+    ng g c componentes/principal
+    ng g c componentes/formulario
+    ng g c componentes/tabela
+
+4º Adicionar bootstrap dentro do arquivo angular.json, linha 28:
+    "node_modules/bootstrap/dist/css/bootstrap.min.css",
+
+5º Rodar aplicação
+    ng s
+
+6º Criar pipe:
+    ng g p pipes/media
