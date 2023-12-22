@@ -73,3 +73,9 @@ Aula 6
 
 6º Criar pipe:
     ng g p pipes/media
+
+__________________________________________________
+Aula 7
+
+1º Criar um novo projeto:
+    ng new aula7
