@@ -79,3 +79,6 @@ Aula 7
 
 1º Criar um novo projeto:
     ng new aula7
+
+2º Executar a plafaforma de teste:
+    ng test
